@@ -4,7 +4,7 @@ from subprocess import call
 def clear(): 
     _ = call('clear' if os.name =='posix' else 'cls') 
 
-board = ['-', '-', '-', '-', '-', '-', '-', '-', '-']
+board = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 game_running = True
 marking = 'X'
